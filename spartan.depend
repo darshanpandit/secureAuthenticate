@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1408114143 source:/home/darshan/work/c/spartan/main.cpp
+	<iostream>
+	<vector>
+	<iterator>
+	<fstream>
+	<ctime>
+	<openssl/evp.h>
+	<openssl/conf.h>
+	<openssl/err.h>
+	<openssl/rand.h>
+	<sstream>
+	<boost/dynamic_bitset.hpp>
+	<limits.h>
+
