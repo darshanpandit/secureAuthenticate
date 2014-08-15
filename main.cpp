@@ -363,7 +363,7 @@ int main()
                     //we want an average time to over a set of calls
                     clock_t start = clock();
 
-                    for(int count=0; count<10; count++)
+                    for(int count=0; count<100; count++)
                     {
                         vector<char> tuple1;
                         tuple1.insert(tuple1.end(), salt.begin(), salt.end());
@@ -407,8 +407,8 @@ int main()
 
                     }
                     clock_t stop = clock();
-                    myfile <<j<<","<<m<< "," << (stop-start)/(double)(CLOCKS_PER_SEC / 1000) << endl;
-                    cout   <<j<<","<<m<< "," << (stop-start)/(double)(CLOCKS_PER_SEC / 1000)<< endl;
+                    myfile <<j<<","<<m<< "," << ((stop-start)/(double)(CLOCKS_PER_SEC / 1000))/100 << endl;
+                    cout   <<j<<","<<m<< "," << ((stop-start)/(double)(CLOCKS_PER_SEC / 1000))/100<< endl;
 
                 }
             }
