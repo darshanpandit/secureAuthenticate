@@ -1,6 +1,7 @@
 #secureAuthenticate
 
-Github Link: "https://github.com/darshanpandit/secureAuthenticate"
+Github Link: https://github.com/darshanpandit/secureAuthenticate
+
 Demo Can be found at 
 
 > Pardon me for this was in a hurry.
